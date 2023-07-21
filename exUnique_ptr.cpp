@@ -24,7 +24,7 @@ void do_something() {
     unique_ptr<A> pa(new A()); 
     pa->some(); 
 
-    unique_ptr<A> pb = pa; 
+    // git push test 
 }
 
 int main() 
